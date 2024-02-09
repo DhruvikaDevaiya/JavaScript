@@ -1,0 +1,166 @@
+[
+    {
+        "Emp_code": "SCIKEY01",
+        "Name": "Hardik",
+        "Designation": "PM",
+        "Business_unit": "Scikey",
+        "Branch": "Surat",
+        "DOB": "28-09-1997",
+        "Department": "PMS",
+        "DOJ": "22-02-2002",
+        "Email": "hardik@gmail.com",
+        "Mob_no": "9977886601",
+        "Gender": "MALE",
+        "Experience": 3,
+        "salary": 50000,
+        "hobbies": [
+            "cricket",
+            "volleyball"
+        ]
+    },
+    {
+        "Emp_code": "SCIKEY02",
+        "Name": "Vidhi",
+        "Designation": "AD",
+        "Business_unit": "Scikey",
+        "Branch": "Surat",
+        "DOB": "05-05-2000",
+        "Department": "AMS",
+        "DOJ": "04-09-2002",
+        "Email": "vidhi@gmail.com",
+        "Mob_no": "8237767340",
+        "Gender": "FEMALE",
+        "Experience": 2,
+        "salary": 30000,
+        "hobbies": [
+            "hockey",
+            "volleyball"
+        ]
+    },
+    {
+        "Emp_code": "SCIKEY04",
+        "Name": "Pratik",
+        "Designation": "DEV",
+        "Business_unit": "Scikey",
+        "Branch": "Mumbai",
+        "DOB": "30-10-1987",
+        "Department": "GMS",
+        "DOJ": "10-02-2006",
+        "Email": "pratik.khan@gmail.com",
+        "Mob_no": "999978801",
+        "Gender": "MALE",
+        "Experience": 10,
+        "salary": 80000,
+        "hobbies": [
+            "cricket",
+            "Music"
+        ]
+    },
+    {
+        "Emp_code": "SCIKEY05",
+        "Name": "Komal",
+        "Designation": "SDEV",
+        "Business_unit": "Scikey",
+        "Branch": "Surat",
+        "DOB": "28-05-1990",
+        "Department": "AMS",
+        "DOJ": "15-03-2001",
+        "Email": "komal@gmail.com",
+        "Mob_no": "997788000",
+        "Gender": "FEMALE",
+        "Experience": 1,
+        "salary": 20000,
+        "hobbies": [
+            "volleyball"
+        ]
+    },
+    {
+        "Emp_code": "SCIKEY06",
+        "Name": "Raj",
+        "Designation": "PM",
+        "Business_unit": "Scikey",
+        "Branch": "Mumbai",
+        "DOB": "28-09-1977",
+        "Department": "PMS",
+        "DOJ": "10-02-2000",
+        "Email": "raj@gmail.com",
+        "Mob_no": "9977885555",
+        "Gender": "MALE",
+        "Experience": 3,
+        "salary": 38000,
+        "hobbies": [
+            "cricket",
+            "volleyball"
+        ]
+    },
+    {
+        "Emp_code": "SCIKEY01",
+        "Name": "Tisha",
+        "Designation": "PM",
+        "Business_unit": "Scikey",
+        "Branch": "Surat",
+        "DOB": "22-03-1997",
+        "Department": "PMS",
+        "DOJ": "22-02-2002",
+        "Email": "tisha@gmail.com",
+        "Mob_no": "2222286601",
+        "Gender": "FEMALE",
+        "Experience": 3,
+        "salary": 50000,
+        "hobbies": [
+            "cricket"
+        ]
+    }
+]
+
+Above array object is example
+
+DEPARTMENT : PMS, AMS, CSS, GMS, IMS
+
+Create a Array Object of all the employee details like above example
+
+1. get All the Employee Details whose salary is between 30K to 40K
+salary_details: {
+    [
+    'SCIKEY01': {
+            "salary": 50000,
+        }
+    ]
+}
+
+
+2. get all the Employee Details Department wise. i.e 
+department_details: {
+    "PMS": [
+        {
+            "Emp_code": "SCIKEY01"
+        }
+    ],
+    "AMS": [
+        {
+            "Emp_code": "SCIKEY02"
+        }
+    ]
+}
+
+3. get all the Employee Details Whose having 2 years + experience.
+experience_details: {
+    experience_details: [
+        {
+    'SCIKEY01': {
+        Experience : 3
+            }
+        },
+        {
+    'SCIKEY02': {
+        Experience : 5
+            }
+        }
+    ]
+}
+
+4. get all the employee details whose hobbies is "cricket".
+hobbies_details: {
+    cricket: [SCIKEY01
+    ]
+}
